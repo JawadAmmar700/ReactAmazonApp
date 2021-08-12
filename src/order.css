@@ -1,0 +1,10 @@
+.orders{
+    width: 900px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}

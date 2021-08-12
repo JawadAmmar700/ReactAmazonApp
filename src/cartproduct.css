@@ -1,0 +1,30 @@
+.newproduct {
+  margin-left: 20px;
+  width: 900px;
+}
+
+.newproduct img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  left: 20px;
+  top: 20px;
+}
+
+.newproduct .newinfo {
+  position: relative;
+  top: -120px;
+  left: 200px;
+}
+
+.newproduct button {
+  position: relative;
+  top: -100px;
+  left: 250px;
+  width: 200px;
+  color: white;
+  outline: none;
+  height: 30px;
+  background-color: #9b9b1e;
+}
+/*# sourceMappingURL=cartproduct.css.map */

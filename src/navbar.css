@@ -1,0 +1,89 @@
+.navbar {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+
+.navbar img {
+  width: 100px;
+  height: auto;
+}
+
+.navbar .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15px;
+}
+
+.navbar .input input {
+  border-radius: 5px;
+  width: 800px;
+  height: 35px;
+}
+
+.navbar .input input:hover {
+  border: 2px solid #a5a51a;
+}
+
+.navbar .input .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 39px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -40px;
+  background-color: #a5a51a;
+  position: relative;
+  top: 1px;
+}
+
+.navbar .list {
+  position: absolute;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .list ul li {
+  font-size: 14px;
+  margin: 0 30px;
+  list-style-type: none;
+  color: white;
+}
+
+.navbar .list ul li .listdown {
+  position: relative;
+  top: 30px;
+  left: -100px;
+}
+/*# sourceMappingURL=navbar.css.map */

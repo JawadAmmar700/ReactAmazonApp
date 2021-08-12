@@ -1,0 +1,33 @@
+body{
+    background-color:lightgrey ;
+    
+}
+#homeImg{
+    width: 100%;
+}
+.product1{
+ position: absolute;
+ top: 306px;
+ width: 100%;
+display: flex;
+justify-content: center;
+
+
+
+}
+.product2{
+ position: relative;
+ top: 10px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ left: -10px;
+}
+.product3{
+ position: relative;
+ top: 30px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}

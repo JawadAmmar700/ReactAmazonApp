@@ -1,0 +1,90 @@
+.CartOverlay {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.CartOverlay .upper {
+  background-color: white;
+  width: 900px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.CartOverlay .upper #h1 {
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid grey;
+}
+
+.CartOverlay .upper img {
+  width: 900px;
+  height: 150px;
+}
+
+.CartOverlay .upper .newDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.CartOverlay .upper .rproduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.CartOverlay .currency {
+  width: 400px;
+  height: 150px;
+  background-color: #e4d9d9;
+  position: absolute;
+  right: 15px;
+  top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.CartOverlay .currency p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.CartOverlay .currency .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.CartOverlay .currency .check input {
+  margin-top: 3px;
+}
+
+.CartOverlay .currency .check span {
+  margin-left: 10px;
+}
+
+.CartOverlay .currency button {
+  position: relative;
+  width: 300px;
+  top: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: #9b9b1e;
+}
+/*# sourceMappingURL=Cart.css.map */

@@ -1,0 +1,28 @@
+.newproduct{
+    
+   margin-left: 20px;
+    width: 900px;
+    img{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        left: 20px;
+        top: 20px;
+    }
+    .newinfo{
+        position: relative;
+        top: -120px;
+        left: 200px;
+    }
+    button{
+        position: relative;
+        top: -100px;
+        left: 250px;
+        width: 200px;
+        color: white;
+        outline: none;
+        height: 30px;
+        background-color: rgb(155, 155, 30);
+      
+    }
+}
