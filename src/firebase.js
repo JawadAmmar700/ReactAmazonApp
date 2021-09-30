@@ -1,18 +1,17 @@
-import firebase from 'firebase'
-import './firebase.css'
+import firebase from "firebase"
+import "./firebase.css"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADrQUU9MMfpkRwl8Rq_UR7EmVo7PxmsNo",
-    authDomain: "clone-ee955.firebaseapp.com",
-    databaseURL: "https://clone-ee955-default-rtdb.firebaseio.com",
-    projectId: "clone-ee955",
-    storageBucket: "clone-ee955.appspot.com",
-    messagingSenderId: "826179532206",
-    appId: "1:826179532206:web:233475d3a688346fe6843f",
-    measurementId: "G-YWWVJN4Q7K"
-};
+  apiKey: "AIzaSyDkyTaLUHgydfXRWImkj-9zd9_Kv7beMXc",
+  authDomain: "react-4fa82.firebaseapp.com",
+  projectId: "react-4fa82",
+  storageBucket: "react-4fa82.appspot.com",
+  messagingSenderId: "989077173231",
+  appId: "1:989077173231:web:a6b402307273159b2efc1a",
+  measurementId: "G-6BWCWNYNY3",
+}
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
-const db = firebaseApp.firestore();
-const auth = firebase.auth();
-export { db, auth };
+const db = firebaseApp.firestore()
+const auth = firebase.auth()
+export { db, auth }

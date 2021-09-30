@@ -1,78 +1,78 @@
-h1{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.checkOutContainer{
-    width: 100%;
-    height: auto;
-    background-color: white;
-   position: relative;
-   top: 50px;
-   padding: 10px;
+.checkOutContainer {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  padding: 10px;
 }
-.head{
-    display: flex;
-    border-bottom: 1px solid gray;
-    padding: 10px;
+.head {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px;
 }
-.addressInfo{
-    margin-left: 50px;
+.addressInfo {
+  margin-left: 50px;
 }
-.middleproduct{
-    padding: 10px;
-    border-bottom: 1px solid gray;
-    display: flex;
+.middleproduct {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
 }
-.h2{
-    flex: 0.2;
+.h2 {
+  flex: 0.2;
 }
-.products{
- 
-    flex: 0.8;
+.products {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  flex: 0.8;
 }
-.payment{
-    border-bottom: 1px solid gray;
-    padding: 10px;
+.payment {
+  border-bottom: 1px solid gray;
+  padding: 10px;
 }
-.payment{
-    display: flex;
-    height: 200px;
+.payment {
+  display: flex;
+  height: 200px;
 }
-.carddetail{
-    width: 300px;
-    height: 30px;
+.carddetail {
+  width: 300px;
+  height: 30px;
 
-    margin-left: 20px;
+  margin-left: 20px;
 }
-.card{
-    position: relative;
-    top: 20px;
+.card {
+  position: relative;
+  top: 20px;
 }
-.bottom{
-    width: 300px;
-    height: 100px;
-    border: 1px solid grey;
-    position: relative;
-    top: 40px;
-
-    
+.bottom {
+  width: 300px;
+  height: 100px;
+  border: 1px solid grey;
+  position: relative;
+  top: 40px;
 }
-.buy{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 10px;
-    width: 200px;
-    height: 25px;
-    background-color: greenyellow;
-    border: 0;
+.buy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+  width: 200px;
+  height: 25px;
+  background-color: greenyellow;
+  border: 0;
 }
-#h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: -15px;
+#h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -15px;
 }

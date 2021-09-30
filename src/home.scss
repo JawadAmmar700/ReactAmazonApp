@@ -1,33 +1,41 @@
-body{
-    background-color:lightgrey ;
-    
+body {
+  background-color: lightgrey;
 }
-#homeImg{
-    width: 100%;
+#homeImg {
+  width: 100%;
 }
-.product1{
- position: absolute;
- top: 306px;
- width: 100%;
-display: flex;
-justify-content: center;
 
-
-
+.productsItem {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin-top: -300px;
+  margin-bottom: 20px;
 }
-.product2{
- position: relative;
- top: 10px;
- width: 100%;
- display: flex;
- justify-content: center;
- position: relative;
- left: -10px;
+
+.product1 {
+  position: absolute;
+  top: 306px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
 }
-.product3{
- position: relative;
- top: 30px;
- width: 100%;
- display: flex;
- justify-content: center;
+.product2 {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -10px;
+}
+.product3 {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

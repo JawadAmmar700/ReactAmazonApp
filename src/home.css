@@ -6,6 +6,18 @@ body {
   width: 100%;
 }
 
+.productsItem {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin-top: -300px;
+  margin-bottom: 20px;
+}
+
 .product1 {
   position: absolute;
   top: 306px;
@@ -16,6 +28,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: -60px;
 }
 
 .product2 {
